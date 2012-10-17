@@ -98,9 +98,9 @@ body {
   blockquote{
     text-align:left;
     font-style:italic;
-    font-size:45%;
+    font-size:53%;
     box-shadow:none;
-    line-height:1.6em;
+    line-height:1.65em;
     margin-top:48px;
 
     @include column-count(2);
@@ -115,7 +115,6 @@ body {
     .completed{
       font-weight:800;
       font-weight:bold;
-    	font-style:normal;
       font-size:80%;
       color:lighten(#222, 50%);
       text-align:right;
