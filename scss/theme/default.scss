@@ -112,6 +112,14 @@ body {
     mask-image: url('/i/mask.png');
     text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6) inset;
     
+    .completed{
+      font-weight:700;
+      font-size:80%;
+      color:darken(#6DB866, 10%);
+      text-align:right;
+      opacity:.5;
+    }
+    
   }
 }
 
