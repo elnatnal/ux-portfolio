@@ -107,6 +107,8 @@ body {
 
 .reveal img {
 	/* preserve aspect ratio and scale image so it's bound within the section */
+	max-height:100%;
+	max-width:100%;
 } 
 
 .reveal strong, 
@@ -247,12 +249,30 @@ body {
 .reveal .controls {
 	display: none;
 	position: fixed;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	z-index: 30;
+	font-size:20px;
 
 	right: 0;
 	bottom: 0;
+	
+	.left{
+	  top:28px;
+	  left:15px;
+	}
+	.right{
+	  top:28px;
+	  left:43px;
+	}
+	.up{
+	  left:29px;
+	  top:15px;
+	}
+	.down{
+	  left:29px;
+	  top:41px;
+	}
 }
 	
 	.reveal .controls a {
