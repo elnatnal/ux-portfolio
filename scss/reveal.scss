@@ -8,6 +8,7 @@
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
+@import "compass/css3";
 
 /*********************************************
  * RESET STYLES
@@ -166,20 +167,12 @@ body {
 .reveal blockquote {
 	display: block;
 	position: relative;
-	width: 70%;
+	width: 80%;
 	margin: 5px auto;
 	padding: 5px;
 	
-	font-style: italic;
 	background: rgba(255, 255, 255, 0.05);
-	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
 }
-	.reveal blockquote:before {
-		content: '“';
-	}
-	.reveal blockquote:after {
-		content: '”';
-	}
 
 .reveal q {	
 	font-style: italic;
@@ -258,20 +251,20 @@ body {
 	bottom: 0;
 	
 	.left{
-	  top:28px;
-	  left:15px;
+	  top:28px !important;
+	  left:15px !important;
 	}
 	.right{
-	  top:28px;
-	  left:43px;
+	  top:28px !important;
+	  left:44px !important;
 	}
 	.up{
-	  left:29px;
-	  top:15px;
+	  left:29px !important;
+	  top:15px !important;
 	}
 	.down{
-	  left:29px;
-	  top:41px;
+	  left:29px !important;
+	  top:41px !important;
 	}
 }
 	
@@ -342,17 +335,6 @@ body {
 	line-height: 1.2;
 	overflow: hidden;
 
-	vertical-align: top;
-
-	-webkit-perspective: 400px;
-	   -moz-perspective: 400px;
-	    -ms-perspective: 400px;
-	        perspective: 400px;
-
-	-webkit-perspective-origin: 50% 50%;
-	   -moz-perspective-origin: 50% 50%;
-	    -ms-perspective-origin: 50% 50%;
-	        perspective-origin: 50% 50%;
 }
 	.reveal .roll:hover {
 		background: none;
@@ -476,7 +458,7 @@ body {
 }
 
 .reveal .slides>section {
-	margin-left: -55%;
+	margin-left: -50%;
 }
 
 

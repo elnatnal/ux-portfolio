@@ -3,6 +3,7 @@
  * 
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+ @import "compass/css3";
 
 /*********************************************
  * FONTS
@@ -79,6 +80,40 @@ body {
   text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6) inset;
 }
 
+.reveal{
+  h2{
+    margin-top:40px;
+    margin-bottom:10px;
+  }
+  
+  h3{
+    margin-top:-14px;
+    margin-bottom:35px;
+    font-size:44%;
+    letter-spacing:2px;
+    text-transform:uppercase;
+  }
+    
+  blockquote{
+    text-align:left;
+    font-style:italic;
+    font-size:55%;
+    box-shadow:none;
+    line-height:1.6em;
+    margin-top:48px;
+
+    @include column-count(2);
+    @include column-gap(2em);
+    @include column-rule(1px, solid, #6DB866);
+    
+    -webkit-mask-image: url('/i/mask.png');
+    -o-mask-image: url('/i/mask.png');
+    -moz-mask-image: url('/i/mask.png');
+    mask-image: url('/i/mask.png');
+    text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6) inset;
+    
+  }
+}
 
 /*********************************************
  * LINKS
