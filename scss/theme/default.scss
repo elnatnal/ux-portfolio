@@ -16,6 +16,7 @@
 	letter-spacing: -0.02em;
 	color:rgba(34,34,34,.8);
 	text-shadow:0 1px 0 rgba(0,0,0,.2);
+	font-size-adjust:0.46; font-weight:normal; font-style:normal;
 }
 
 .reveal h1, 
@@ -26,7 +27,7 @@
 .reveal h6 {
 	font-family: 'sommet-slab', Impact, sans-serif;
 	line-height: 1.15em;
-	font-weight:100;
+	font-weight:200;
 	color:rgba(34,34,34,.8);
 	text-shadow:0 1px 0 rgba(0,0,0,.2);
   
@@ -38,8 +39,9 @@
 
 .reveal h3{
   font-size:.75em;
-  font-weight:700;
+  font-weight:800;
   color:#6db866;
+  font-style:normal;
   margin-bottom:4px;
 }
 
@@ -98,6 +100,7 @@ body {
     font-style:italic;
     font-family:'Latienne Italic', Times, 'Times New Roman', serif;;
     font-size:55%;
+    font-size-adjust:0.46; font-weight:normal; font-style:normal;
     box-shadow:none;
     line-height:1.6em;
     margin-top:48px;
@@ -113,7 +116,8 @@ body {
     text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6) inset;
     
     .completed{
-      font-weight:700;
+      font-weight:800;
+      font-weight:bold;
       font-size:80%;
       color:darken(#6DB866, 10%);
       text-align:right;
@@ -161,6 +165,7 @@ body {
   
   li{
     font-size:80%;
+    line-height:1.5em;
     margin-left:0;
   }
   
