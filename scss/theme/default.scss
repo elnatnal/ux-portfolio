@@ -113,13 +113,13 @@ body {
     -o-mask-image: url('/i/mask.png');
     -moz-mask-image: url('/i/mask.png');
     mask-image: url('/i/mask.png');
-    text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6) inset;
     
     .completed{
       font-weight:800;
       font-weight:bold;
+    	font-style:normal;
       font-size:80%;
-      color:darken(#6DB866, 10%);
+      color:lighten(#222, 50%);
       text-align:right;
       opacity:.5;
     }
