@@ -23,35 +23,6 @@
   src: url('/fonts/Latienne-Italic.bmap') format('bitmap');
 }
 
-
-@font-face{
-  font-family:'Sommet Slab', Times, 'Times New Roman', serif;
-  font-weight:100;
-  font-style:normal;
-  src: url('/fonts/SommetSlabThin.otf') format('opentype');
-}
-
-@font-face{
-  font-family:'Sommet Slab', Times, 'Times New Roman', serif;
-  font-weight:200;
-  font-style:normal;
-  src: url('/fonts/SommetSlabLight.otf') format('opentype');
-}
-
-@font-face{
-  font-family:'Sommet Slab', Times, 'Times New Roman', serif;
-  font-weight:500;
-  font-style:normal;
-  src: url('/fonts/SommetSlabRegular.otf') format('opentype');
-}
-
-@font-face{
-  font-family:'Sommet Slab', Times, 'Times New Roman', serif;
-  font-weight:800;
-  font-style:normal;
-  src: url('/fonts/SommetSlabBlack.otf') format('opentype');
-}
-
 .reveal {
 	font-family: 'Latienne Regular', Times, 'Times New Roman', serif;
 	font-size: 36px;
