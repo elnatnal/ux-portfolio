@@ -10,13 +10,12 @@
  *********************************************/
 
 .reveal {
-	font-family: 'Latienne', Times, 'Times New Roman', serif;
+	font-family: 'Latienne Regular', Times, 'Times New Roman', serif;
 	font-size: 36px;
 	font-weight: 500;
 	letter-spacing: -0.02em;
 	color:rgba(34,34,34,.8);
 	text-shadow:0 1px 0 rgba(0,0,0,.2);
-	
 }
 
 .reveal h1, 
@@ -25,7 +24,7 @@
 .reveal h4, 
 .reveal h5, 
 .reveal h6 {
-	font-family: 'Sommet Slab', Impact, sans-serif;
+	font-family: 'sommet-slab', Impact, sans-serif;
 	line-height: 1.15em;
 	font-weight:100;
 	color:rgba(34,34,34,.8);
@@ -97,6 +96,7 @@ body {
   blockquote{
     text-align:left;
     font-style:italic;
+    font-family:'Latienne Italic', Times, 'Times New Roman', serif;;
     font-size:55%;
     box-shadow:none;
     line-height:1.6em;
