@@ -98,13 +98,14 @@ body {
   blockquote{
     text-align:left;
     font-style:italic;
-    font-size:53%;
+    font-size:48%;
     box-shadow:none;
     line-height:1.65em;
     margin-top:48px;
+    width:81%;
 
     @include column-count(2);
-    @include column-gap(2em);
+    @include column-gap(1.5em);
     @include column-rule(1px, solid, #6DB866);
     
     -webkit-mask-image: url('/i/mask.png');
