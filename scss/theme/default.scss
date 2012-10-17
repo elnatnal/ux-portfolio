@@ -130,7 +130,7 @@ body {
 	        transition: color .15s ease;
 }
 	.reveal a:not(.image):hover {
-		color: hsl(185, 85%, 70%);
+  	color: darken(#6DB866, 20%);
 		
 		text-shadow: none;
 		border: none;
@@ -138,10 +138,28 @@ body {
 	}
 
 .reveal .roll span:after {
-	color: #fff;
-	background: hsl(185, 60%, 35%);
+	color: darken(#6DB866, 40%);
 }
 
+.reveal .toc{
+  ul{
+    list-style-type:none;
+    margin-left:0;
+    padding-left:0;
+    width:80%;
+    text-align:center;
+    font-style:italic;
+  }
+  
+  li{
+    font-size:80%;
+    margin-left:0;
+  }
+  
+  a{
+    color:#6DB866;
+  }
+}
 
 /*********************************************
  * IMAGES
