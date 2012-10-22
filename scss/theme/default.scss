@@ -8,21 +8,6 @@
 /*********************************************
  * FONTS
  *********************************************/
-
-@font-face{
-  font-family:'Latienne', Times, 'Times New Roman', serif;
-  font-weight:300;
-  font-style:normal;
-  src: url('/fonts/Latienne-Roman.bmap') format('bitmap');
-}
-
-@font-face{
-  font-family:'Latienne', Times, 'Times New Roman', serif;
-  font-weight:300;
-  font-style:italic;
-  src: url('/fonts/Latienne-Italic.bmap') format('bitmap');
-}
-
 .reveal {
 	font-family: 'Latienne Regular', Times, 'Times New Roman', serif;
 	font-size: 36px;
