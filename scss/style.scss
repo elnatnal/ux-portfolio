@@ -868,10 +868,10 @@ body {
 .reveal h5, 
 .reveal h6 {
 	margin: 0 0 20px 0;
-  -webkit-mask-image: url('/i/mask.png');
-  -o-mask-image: url('/i/mask.png');
-  -moz-mask-image: url('/i/mask.png');
-  mask-image: url('/i/mask.png');
+  -webkit-mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
+  -o-mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
+  -moz-mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
+  mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
   text-shadow: 0px 0px 30px rgba(30, 28, 28, 0.6) inset;
 }
 
@@ -903,10 +903,10 @@ body {
     @include column-gap(1.5em);
     @include column-rule(1px, solid, #6DB866);
     
-    -webkit-mask-image: url('/i/mask.png');
-    -o-mask-image: url('/i/mask.png');
-    -moz-mask-image: url('/i/mask.png');
-    mask-image: url('/i/mask.png');
+    -webkit-mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
+    -o-mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
+    -moz-mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
+    mask-image: url('https://s3-eu-west-1.amazonaws.com/ux-booking/mask.png');
     
     .completed{
       font-weight:800;
